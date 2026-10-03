@@ -1,0 +1,28 @@
+# Secrets & credentials
+.env
+*.key
+*.pem
+*.kdbx
+creds*.txt
+loot/
+
+# VPN configs (HTB/THM)
+*.ovpn
+
+# Large captures & dumps
+*.pcap
+*.pcapng
+*.dmp
+*.vmem
+*.raw
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.obsidian/workspace*.json
